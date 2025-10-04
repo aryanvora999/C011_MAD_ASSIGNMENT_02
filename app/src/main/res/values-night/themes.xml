@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme for C011_MAD_Assignment_02. -->
+    <style name="Base.Theme.C011_MAD_Assignment_02" parent="Theme.Material3.Dark.NoActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+
+        <!-- Forcing dark mode always. -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <!-- Final App Theme -->
+    <style name="Theme.C011_MAD_Assignment_02" parent="Base.Theme.C011_MAD_Assignment_02" />
+
+</resources>
